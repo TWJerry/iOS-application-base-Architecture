@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04A26B0E1C1C27130008E380 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A26B0D1C1C27130008E380 /* main.m */; };
+		04A26B111C1C27130008E380 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A26B101C1C27130008E380 /* AppDelegate.m */; };
+		04A26B141C1C27130008E380 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A26B131C1C27130008E380 /* ViewController.m */; };
+		04A26B171C1C27130008E380 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A26B151C1C27130008E380 /* Main.storyboard */; };
+		04A26B191C1C27130008E380 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A26B181C1C27130008E380 /* Images.xcassets */; };
+		04A26B1C1C1C27130008E380 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A26B1A1C1C27130008E380 /* LaunchScreen.xib */; };
+		04A26B281C1C27130008E380 /* FMDB_AFN____demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A26B271C1C27130008E380 /* FMDB_AFN____demoTests.m */; };
+		04A26B3A1C1C2A560008E380 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A26B391C1C2A560008E380 /* CoreTelephony.framework */; };
+		04A26B3C1C1C2A5F0008E380 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A26B3B1C1C2A5F0008E380 /* libsqlite3.0.dylib */; };
+		04A26B421C1C2B530008E380 /* TTHTTPService.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A26B411C1C2B530008E380 /* TTHTTPService.m */; };
+		04A26B451C1C2BE60008E380 /* NSObject+HTTPUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A26B441C1C2BE60008E380 /* NSObject+HTTPUtils.m */; };
+		04A26B481C1C2BFB0008E380 /* TTUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A26B471C1C2BFB0008E380 /* TTUserInfo.m */; };
+		04A26B4E1C1C2C660008E380 /* TTNetServiceOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A26B4B1C1C2C660008E380 /* TTNetServiceOperation.m */; };
+		04A26B4F1C1C2C660008E380 /* TTUserInfoOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A26B4D1C1C2C660008E380 /* TTUserInfoOperation.m */; };
+		04A26B581C1C2E620008E380 /* TTDataBase+GroupInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A26B531C1C2E620008E380 /* TTDataBase+GroupInfo.m */; };
+		04A26B591C1C2E620008E380 /* TTDataBase+UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A26B551C1C2E620008E380 /* TTDataBase+UserInfo.m */; };
+		04A26B5A1C1C2E620008E380 /* TTDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A26B571C1C2E620008E380 /* TTDataBase.m */; };
+		04A26B601C1C2E900008E380 /* GroupInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A26B5D1C1C2E900008E380 /* GroupInfo.m */; };
+		04A26B611C1C2E900008E380 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A26B5F1C1C2E900008E380 /* UserInfo.m */; };
+		04A26B6A1C1C52780008E380 /* UrlUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A26B691C1C52780008E380 /* UrlUtils.m */; };
+		04A26B731C1C52930008E380 /* AppConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A26B6D1C1C52930008E380 /* AppConstants.m */; };
+		04A26B741C1C52930008E380 /* AppUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A26B6F1C1C52930008E380 /* AppUtils.m */; };
+		04A26B751C1C52930008E380 /* Foundation+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A26B701C1C52930008E380 /* Foundation+Extension.m */; };
+		F3470D57E64EFD06E648B383 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 99A02988CF22DEB0CAF7DE1E /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04A26B221C1C27130008E380 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04A26B001C1C27130008E380 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04A26B071C1C27130008E380;
+			remoteInfo = "FMDB和AFN简易封装demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04A26B081C1C27130008E380 /* FMDB和AFN简易封装demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FMDB和AFN简易封装demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A26B0C1C1C27130008E380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A26B0D1C1C27130008E380 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04A26B0F1C1C27130008E380 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04A26B101C1C27130008E380 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04A26B121C1C27130008E380 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04A26B131C1C27130008E380 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04A26B161C1C27130008E380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04A26B181C1C27130008E380 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04A26B1B1C1C27130008E380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		04A26B211C1C27130008E380 /* FMDB和AFN简易封装demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FMDB和AFN简易封装demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A26B261C1C27130008E380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A26B271C1C27130008E380 /* FMDB_AFN____demoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "FMDB_AFN____demoTests.m"; sourceTree = "<group>"; };
+		04A26B391C1C2A560008E380 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		04A26B3B1C1C2A5F0008E380 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		04A26B401C1C2B530008E380 /* TTHTTPService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTHTTPService.h; sourceTree = "<group>"; };
+		04A26B411C1C2B530008E380 /* TTHTTPService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTHTTPService.m; sourceTree = "<group>"; };
+		04A26B431C1C2BD10008E380 /* NSObject+HTTPUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HTTPUtils.h"; sourceTree = "<group>"; };
+		04A26B441C1C2BE60008E380 /* NSObject+HTTPUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HTTPUtils.m"; sourceTree = "<group>"; };
+		04A26B461C1C2BF60008E380 /* TTUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTUserInfo.h; sourceTree = "<group>"; };
+		04A26B471C1C2BFB0008E380 /* TTUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTUserInfo.m; sourceTree = "<group>"; };
+		04A26B4A1C1C2C660008E380 /* TTNetServiceOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTNetServiceOperation.h; sourceTree = "<group>"; };
+		04A26B4B1C1C2C660008E380 /* TTNetServiceOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTNetServiceOperation.m; sourceTree = "<group>"; };
+		04A26B4C1C1C2C660008E380 /* TTUserInfoOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTUserInfoOperation.h; sourceTree = "<group>"; };
+		04A26B4D1C1C2C660008E380 /* TTUserInfoOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTUserInfoOperation.m; sourceTree = "<group>"; };
+		04A26B521C1C2E620008E380 /* TTDataBase+GroupInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TTDataBase+GroupInfo.h"; sourceTree = "<group>"; };
+		04A26B531C1C2E620008E380 /* TTDataBase+GroupInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TTDataBase+GroupInfo.m"; sourceTree = "<group>"; };
+		04A26B541C1C2E620008E380 /* TTDataBase+UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TTDataBase+UserInfo.h"; sourceTree = "<group>"; };
+		04A26B551C1C2E620008E380 /* TTDataBase+UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TTDataBase+UserInfo.m"; sourceTree = "<group>"; };
+		04A26B561C1C2E620008E380 /* TTDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTDataBase.h; sourceTree = "<group>"; };
+		04A26B571C1C2E620008E380 /* TTDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTDataBase.m; sourceTree = "<group>"; };
+		04A26B5C1C1C2E900008E380 /* GroupInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupInfo.h; sourceTree = "<group>"; };
+		04A26B5D1C1C2E900008E380 /* GroupInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupInfo.m; sourceTree = "<group>"; };
+		04A26B5E1C1C2E900008E380 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		04A26B5F1C1C2E900008E380 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		04A26B681C1C52710008E380 /* UrlUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UrlUtils.h; sourceTree = "<group>"; };
+		04A26B691C1C52780008E380 /* UrlUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UrlUtils.m; sourceTree = "<group>"; };
+		04A26B6C1C1C52930008E380 /* AppConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConstants.h; sourceTree = "<group>"; };
+		04A26B6D1C1C52930008E380 /* AppConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppConstants.m; sourceTree = "<group>"; };
+		04A26B6E1C1C52930008E380 /* AppUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppUtils.h; sourceTree = "<group>"; };
+		04A26B6F1C1C52930008E380 /* AppUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppUtils.m; sourceTree = "<group>"; };
+		04A26B701C1C52930008E380 /* Foundation+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Extension.m"; sourceTree = "<group>"; };
+		04A26B711C1C52930008E380 /* TTConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTConst.h; sourceTree = "<group>"; };
+		04A26B721C1C52930008E380 /* TTHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTHeader.h; sourceTree = "<group>"; };
+		99A02988CF22DEB0CAF7DE1E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A18AC49E8B00A878860C1015 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B83E370FC063EAEEB270F782 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04A26B051C1C27130008E380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A26B3C1C1C2A5F0008E380 /* libsqlite3.0.dylib in Frameworks */,
+				04A26B3A1C1C2A560008E380 /* CoreTelephony.framework in Frameworks */,
+				F3470D57E64EFD06E648B383 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A26B1E1C1C27130008E380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04A26AFF1C1C27130008E380 = {
+			isa = PBXGroup;
+			children = (
+				04A26B0A1C1C27130008E380 /* FMDB和AFN简易封装demo */,
+				04A26B241C1C27130008E380 /* FMDB和AFN简易封装demoTests */,
+				04A26B091C1C27130008E380 /* Products */,
+				73906ED5A2EA64786A1BEF0C /* Pods */,
+				46D3F517B33A2C1EACEA1D14 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04A26B091C1C27130008E380 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04A26B081C1C27130008E380 /* FMDB和AFN简易封装demo.app */,
+				04A26B211C1C27130008E380 /* FMDB和AFN简易封装demoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04A26B0A1C1C27130008E380 /* FMDB和AFN简易封装demo */ = {
+			isa = PBXGroup;
+			children = (
+				04A26B6B1C1C52930008E380 /* AppHelper */,
+				04A26B511C1C2E620008E380 /* DAO */,
+				04A26B5B1C1C2E900008E380 /* Models */,
+				04A26B311C1C29690008E380 /* TTHTTPService */,
+				04A26B491C1C2C660008E380 /* TTNetService */,
+				04A26B0F1C1C27130008E380 /* AppDelegate.h */,
+				04A26B101C1C27130008E380 /* AppDelegate.m */,
+				04A26B121C1C27130008E380 /* ViewController.h */,
+				04A26B131C1C27130008E380 /* ViewController.m */,
+				04A26B151C1C27130008E380 /* Main.storyboard */,
+				04A26B181C1C27130008E380 /* Images.xcassets */,
+				04A26B1A1C1C27130008E380 /* LaunchScreen.xib */,
+				04A26B0B1C1C27130008E380 /* Supporting Files */,
+			);
+			path = "FMDB和AFN简易封装demo";
+			sourceTree = "<group>";
+		};
+		04A26B0B1C1C27130008E380 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04A26B0C1C1C27130008E380 /* Info.plist */,
+				04A26B0D1C1C27130008E380 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04A26B241C1C27130008E380 /* FMDB和AFN简易封装demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				04A26B271C1C27130008E380 /* FMDB_AFN____demoTests.m */,
+				04A26B251C1C27130008E380 /* Supporting Files */,
+			);
+			path = "FMDB和AFN简易封装demoTests";
+			sourceTree = "<group>";
+		};
+		04A26B251C1C27130008E380 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04A26B261C1C27130008E380 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04A26B311C1C29690008E380 /* TTHTTPService */ = {
+			isa = PBXGroup;
+			children = (
+				04A26B401C1C2B530008E380 /* TTHTTPService.h */,
+				04A26B411C1C2B530008E380 /* TTHTTPService.m */,
+				04A26B431C1C2BD10008E380 /* NSObject+HTTPUtils.h */,
+				04A26B441C1C2BE60008E380 /* NSObject+HTTPUtils.m */,
+				04A26B461C1C2BF60008E380 /* TTUserInfo.h */,
+				04A26B471C1C2BFB0008E380 /* TTUserInfo.m */,
+				04A26B681C1C52710008E380 /* UrlUtils.h */,
+				04A26B691C1C52780008E380 /* UrlUtils.m */,
+			);
+			path = TTHTTPService;
+			sourceTree = "<group>";
+		};
+		04A26B491C1C2C660008E380 /* TTNetService */ = {
+			isa = PBXGroup;
+			children = (
+				04A26B4A1C1C2C660008E380 /* TTNetServiceOperation.h */,
+				04A26B4B1C1C2C660008E380 /* TTNetServiceOperation.m */,
+				04A26B4C1C1C2C660008E380 /* TTUserInfoOperation.h */,
+				04A26B4D1C1C2C660008E380 /* TTUserInfoOperation.m */,
+			);
+			path = TTNetService;
+			sourceTree = "<group>";
+		};
+		04A26B511C1C2E620008E380 /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				04A26B561C1C2E620008E380 /* TTDataBase.h */,
+				04A26B571C1C2E620008E380 /* TTDataBase.m */,
+				04A26B521C1C2E620008E380 /* TTDataBase+GroupInfo.h */,
+				04A26B531C1C2E620008E380 /* TTDataBase+GroupInfo.m */,
+				04A26B541C1C2E620008E380 /* TTDataBase+UserInfo.h */,
+				04A26B551C1C2E620008E380 /* TTDataBase+UserInfo.m */,
+			);
+			path = DAO;
+			sourceTree = "<group>";
+		};
+		04A26B5B1C1C2E900008E380 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04A26B5C1C1C2E900008E380 /* GroupInfo.h */,
+				04A26B5D1C1C2E900008E380 /* GroupInfo.m */,
+				04A26B5E1C1C2E900008E380 /* UserInfo.h */,
+				04A26B5F1C1C2E900008E380 /* UserInfo.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		04A26B6B1C1C52930008E380 /* AppHelper */ = {
+			isa = PBXGroup;
+			children = (
+				04A26B6C1C1C52930008E380 /* AppConstants.h */,
+				04A26B6D1C1C52930008E380 /* AppConstants.m */,
+				04A26B6E1C1C52930008E380 /* AppUtils.h */,
+				04A26B6F1C1C52930008E380 /* AppUtils.m */,
+				04A26B721C1C52930008E380 /* TTHeader.h */,
+				04A26B711C1C52930008E380 /* TTConst.h */,
+				04A26B701C1C52930008E380 /* Foundation+Extension.m */,
+			);
+			path = AppHelper;
+			sourceTree = "<group>";
+		};
+		46D3F517B33A2C1EACEA1D14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04A26B3B1C1C2A5F0008E380 /* libsqlite3.0.dylib */,
+				04A26B391C1C2A560008E380 /* CoreTelephony.framework */,
+				99A02988CF22DEB0CAF7DE1E /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73906ED5A2EA64786A1BEF0C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B83E370FC063EAEEB270F782 /* Pods.debug.xcconfig */,
+				A18AC49E8B00A878860C1015 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04A26B071C1C27130008E380 /* FMDB和AFN简易封装demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A26B2B1C1C27130008E380 /* Build configuration list for PBXNativeTarget "FMDB和AFN简易封装demo" */;
+			buildPhases = (
+				3D5C20405248E5A15936B40C /* Check Pods Manifest.lock */,
+				04A26B041C1C27130008E380 /* Sources */,
+				04A26B051C1C27130008E380 /* Frameworks */,
+				04A26B061C1C27130008E380 /* Resources */,
+				C3D30B515673C47D5274C429 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FMDB和AFN简易封装demo";
+			productName = "FMDB和AFN简易封装demo";
+			productReference = 04A26B081C1C27130008E380 /* FMDB和AFN简易封装demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04A26B201C1C27130008E380 /* FMDB和AFN简易封装demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A26B2E1C1C27130008E380 /* Build configuration list for PBXNativeTarget "FMDB和AFN简易封装demoTests" */;
+			buildPhases = (
+				04A26B1D1C1C27130008E380 /* Sources */,
+				04A26B1E1C1C27130008E380 /* Frameworks */,
+				04A26B1F1C1C27130008E380 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04A26B231C1C27130008E380 /* PBXTargetDependency */,
+			);
+			name = "FMDB和AFN简易封装demoTests";
+			productName = "FMDB和AFN简易封装demoTests";
+			productReference = 04A26B211C1C27130008E380 /* FMDB和AFN简易封装demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04A26B001C1C27130008E380 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "汤威";
+				TargetAttributes = {
+					04A26B071C1C27130008E380 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					04A26B201C1C27130008E380 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 04A26B071C1C27130008E380;
+					};
+				};
+			};
+			buildConfigurationList = 04A26B031C1C27130008E380 /* Build configuration list for PBXProject "FMDB和AFN简易封装demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04A26AFF1C1C27130008E380;
+			productRefGroup = 04A26B091C1C27130008E380 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04A26B071C1C27130008E380 /* FMDB和AFN简易封装demo */,
+				04A26B201C1C27130008E380 /* FMDB和AFN简易封装demoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04A26B061C1C27130008E380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A26B171C1C27130008E380 /* Main.storyboard in Resources */,
+				04A26B1C1C1C27130008E380 /* LaunchScreen.xib in Resources */,
+				04A26B191C1C27130008E380 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A26B1F1C1C27130008E380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D5C20405248E5A15936B40C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C3D30B515673C47D5274C429 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04A26B041C1C27130008E380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A26B611C1C2E900008E380 /* UserInfo.m in Sources */,
+				04A26B601C1C2E900008E380 /* GroupInfo.m in Sources */,
+				04A26B5A1C1C2E620008E380 /* TTDataBase.m in Sources */,
+				04A26B141C1C27130008E380 /* ViewController.m in Sources */,
+				04A26B6A1C1C52780008E380 /* UrlUtils.m in Sources */,
+				04A26B4E1C1C2C660008E380 /* TTNetServiceOperation.m in Sources */,
+				04A26B111C1C27130008E380 /* AppDelegate.m in Sources */,
+				04A26B741C1C52930008E380 /* AppUtils.m in Sources */,
+				04A26B451C1C2BE60008E380 /* NSObject+HTTPUtils.m in Sources */,
+				04A26B591C1C2E620008E380 /* TTDataBase+UserInfo.m in Sources */,
+				04A26B731C1C52930008E380 /* AppConstants.m in Sources */,
+				04A26B0E1C1C27130008E380 /* main.m in Sources */,
+				04A26B4F1C1C2C660008E380 /* TTUserInfoOperation.m in Sources */,
+				04A26B481C1C2BFB0008E380 /* TTUserInfo.m in Sources */,
+				04A26B751C1C52930008E380 /* Foundation+Extension.m in Sources */,
+				04A26B421C1C2B530008E380 /* TTHTTPService.m in Sources */,
+				04A26B581C1C2E620008E380 /* TTDataBase+GroupInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A26B1D1C1C27130008E380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A26B281C1C27130008E380 /* FMDB_AFN____demoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04A26B231C1C27130008E380 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04A26B071C1C27130008E380 /* FMDB和AFN简易封装demo */;
+			targetProxy = 04A26B221C1C27130008E380 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04A26B151C1C27130008E380 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04A26B161C1C27130008E380 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04A26B1A1C1C27130008E380 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04A26B1B1C1C27130008E380 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04A26B291C1C27130008E380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04A26B2A1C1C27130008E380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04A26B2C1C1C27130008E380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B83E370FC063EAEEB270F782 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/mac/Desktop/代码库/FMDB和AFN简易封装demo/FMDB和AFN简易封装demo/AppHelper/TTHeader.h";
+				INFOPLIST_FILE = "FMDB和AFN简易封装demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tangwei.cn.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04A26B2D1C1C27130008E380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A18AC49E8B00A878860C1015 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "/Users/mac/Desktop/代码库/FMDB和AFN简易封装demo/FMDB和AFN简易封装demo/AppHelper/TTHeader.h";
+				INFOPLIST_FILE = "FMDB和AFN简易封装demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tangwei.cn.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04A26B2F1C1C27130008E380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FMDB和AFN简易封装demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tangwei.cn.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FMDB和AFN简易封装demo.app/FMDB和AFN简易封装demo";
+			};
+			name = Debug;
+		};
+		04A26B301C1C27130008E380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FMDB和AFN简易封装demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tangwei.cn.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FMDB和AFN简易封装demo.app/FMDB和AFN简易封装demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04A26B031C1C27130008E380 /* Build configuration list for PBXProject "FMDB和AFN简易封装demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A26B291C1C27130008E380 /* Debug */,
+				04A26B2A1C1C27130008E380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A26B2B1C1C27130008E380 /* Build configuration list for PBXNativeTarget "FMDB和AFN简易封装demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A26B2C1C1C27130008E380 /* Debug */,
+				04A26B2D1C1C27130008E380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A26B2E1C1C27130008E380 /* Build configuration list for PBXNativeTarget "FMDB和AFN简易封装demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A26B2F1C1C27130008E380 /* Debug */,
+				04A26B301C1C27130008E380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04A26B001C1C27130008E380 /* Project object */;
+}
